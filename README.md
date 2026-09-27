@@ -59,7 +59,7 @@ Users classify words with a simple **“Know / Don’t know”** interaction, wh
 **Current status**
 - Product design and frontend nearing completion
 - Data model designed
-- Backend implementation in progress
+- Backend implementation next
 - Target launch: October 2026
 
 > Source code is private while the product is under development.
