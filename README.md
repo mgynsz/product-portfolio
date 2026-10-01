@@ -1,10 +1,12 @@
+**한국어** | [English](README.en.md)
+
 # Jinyoung Jang — Product Portfolio
 
-> AI를 활용해 아이디어를 실제 동작하는 제품과 서비스로 구현하는 Product Builder입니다.
+> 고객의 문제를 제품으로 연결하는 Product Manager · Product Builder입니다.
 
-iOS 개발로 시작해 Web, Backend, Cloud Infrastructure, ML 기반 제품까지 개발 영역을 확장해왔습니다.
+사업과 고객 현장에서 오래 일한 뒤 개발을 시작했습니다.
 
-특정 기술 하나의 전문성을 주장하기보다, 문제 정의부터 제품 설계, 구현, 배포, 검증과 운영까지 하나의 제품이 실제 서비스가 되기 위해 필요한 과정을 연결하는 데 강점이 있습니다.
+iOS에서 출발해 직접 제품을 만들며 Web, Backend, Cloud, ML까지 개발 과정 전반을 경험했습니다. 문제를 정의하고 필요한 사람과 기술을 연결해 실제로 작동하는 제품까지 만드는 역할에 강점이 있습니다.
 
 ---
 
@@ -84,11 +86,13 @@ Rangeon은 사용자의 투자 방향을 결정해주는 서비스가 아닙니�
 ---
 
 ### 02. Kivvo
-**기억 상태를 관리하는 Vocabulary Learning Platform**
+**기억 상태를 관리하는 Adaptive Learning Platform**
 
 Kivvo는 학습한 내용을 잊는 것을 실패가 아닌 자연스러운 과정으로 보고, 사용자가 필요한 시점에 단어를 다시 떠올릴 수 있도록 **기억을 관리하는 것(Memory Management)**을 목표로 하는 학습 서비스입니다.
 
-사용자는 짧은 Play 세션에서 단어를 **'안다 / 모른다'**로 분류하고, 시스템은 각 단어의 Memory Status와 Memory Strength를 관리하여 다음 복습 시점을 결정합니다.
+사용자는 짧은 Play 세션에서 학습 내용을 떠올리고, 바로 기억나지 않을 때는 Hold를 통해 힌트를 점진적으로 확인할 수 있습니다.
+
+시스템은 반응 속도, Hold 시간, 힌트 사용 여부와 반복되는 정답·오답을 함께 보고 각 항목의 Memory Status와 Memory Strength를 관리하여 다음 복습 시점을 조절합니다.
 
 기억이 안정적인 단어는 점차 적게 노출하고, 기억이 약해진 단어는 다시 자주 노출합니다.
 
@@ -109,22 +113,24 @@ Kivvo는 학습한 내용을 잊는 것을 실패가 아닌 자연스러운 과�
 
 ### 현재 상태
 
-- Product / UX 설계 진행
-- Frontend 대부분 구현
-- Data Model 설계
-- Backend 구현 예정
-- 2026년 10월 출시 목표
+- Product / UX Design 완료
+- Frontend 마무리 단계
+- Data Model 설계 완료
+- Backend / Algorithm 개발 예정
 
 > 개발 중인 제품이므로 Source Code는 Private으로 유지하고 있습니다.
 
 ---
 
 ### 03. Momento
-**실제 운영 중인 Mobile Product**
 
-현재 실제 사용자 약 **120명**이 사용 중인 모바일 서비스입니다.
+**하루의 기록을 실물 다이어리까지 연결하는 Mobile Product**
 
-개발과 App Store 배포에서 끝나지 않고 실제 사용자가 존재하는 서비스를 유지·운영해본 경험이라는 점에서 의미가 있는 프로젝트입니다.
+하루에 하나의 글이나 사진을 남기고, 연인·친구·가족이 같은 공간에서 각자의 하루를 기록할 수 있는 모바일 서비스입니다.
+
+기록이 충분히 쌓이면 앱 안에서 실물 다이어리 제작을 주문할 수 있도록 설계해, 디지털 기록이 실제로 손에 남는 경험까지 제품으로 연결했습니다.
+
+현재 App Store에서 운영 중이며 약 **120명의 사용자**가 이용하고 있습니다.
 
 ---
 
@@ -172,26 +178,20 @@ Kivvo는 학습한 내용을 잊는 것을 실패가 아닌 자연스러운 과�
 
 ## How I Build Products
 
-현재 개발 과정에서는 AI를 적극적으로 활용합니다.
-
-AI를 단순 코드 생성 도구가 아니라 제품 개발 전 과정의 작업 도구로 사용하고 있습니다.
+AI는 구현 속도를 크게 높여주지만, 빠르게 만드는 것과 제대로 만드는 것은 다른 문제라고 생각합니다.
 
 `Problem Definition`
 → `Requirement Breakdown`
-→ `Architecture / Implementation Plan`
+→ `Design`
 → `Implementation`
-→ `Code Review / Debugging`
+→ `Review`
 → `Testing`
 → `Deployment`
 → `Production Validation`
 
-특정 기술의 문법을 많이 알고 있는 것보다,
+AI를 적극적으로 활용하되, 무엇을 요청할지, 어디까지 믿을지, 무엇을 다시 확인할지는 직접 판단합니다.
 
-**제품을 완성하기 위해 무엇이 필요한지 파악하고, 서로 다른 기술 영역을 연결하여 실제 동작하는 서비스까지 가져가는 것**
-
-을 현재 가장 중요한 역량으로 발전시키고 있습니다.
-
-AI가 생성한 결과를 그대로 사용하는 것보다 변경 범위를 확인하고, 테스트와 배포 결과를 검증하며 문제가 발생했을 때 원인을 다시 분석하는 과정을 반복하는 방식으로 작업합니다.
+변경된 Diff와 Log를 확인하고, Build와 Smoke Test를 거쳐 배포한 뒤 실제 Production 환경에서 동작과 복구까지 검증하는 방식으로 작업하고 있습니다.
 
 ---
 
@@ -225,5 +225,6 @@ AI가 생성한 결과를 그대로 사용하는 것보다 변경 범위를 확�
 
 ## Contact
 
-- GitHub: [@mgynsz](https://github.com/mgynsz)
-- Email: mgynsz@gmail.com
+- LinkedIn: [linkedin.com/in/mgynsz](https://www.linkedin.com/in/mgynsz/)
+- GitHub: [github.com/mgynsz](https://github.com/mgynsz)
+- Email: [mgynsz@gmail.com](mailto:mgynsz@gmail.com)
